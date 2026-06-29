@@ -2,8 +2,6 @@
     <img width="200" height="200" src="assets/images/logo/logo.png">
 </div>
 
-
-
 <div align="center">
     <h1>PiliPlus</h1>
 <div align="center">
@@ -12,7 +10,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/bggRGjQaUbCoE/PiliPlus) 
 ![GitHub all releases](https://img.shields.io/github/downloads/bggRGjQaUbCoE/PiliPlus/total) 
 </div>
-    <p>使用Flutter开发的BiliBili第三方客户端</p>
+    <p>使用 Flutter 开发的 BiliBili 第三方客户端 —— 持续迭代，探索视觉与交互新可能</p>
     
 <img src="assets/screenshots/510shots_so.png" width="32%" alt="home" />
 <img src="assets/screenshots/174shots_so.png" width="32%" alt="home" />
@@ -22,6 +20,23 @@
 <br/>
 </div>
 
+<br/>
+
+## ✨ 亮点特性与规划
+
+- **LiquidGlass 毛玻璃效果（规划中）** —— 计划于 2026 年暑假期间，从 [AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) 移植至 Flutter 端，为 PiliPlus 注入动态、精致的玻璃质感，提升视觉层次与交互流畅度，深入实践自定义绘制与渲染优化。
+- **全平台覆盖** —— Android / iOS / Pad / Windows / Linux，一套代码多端运行。
+- **海量功能** —— 覆盖弹幕、离线缓存、DLNA、直播、互动视频、高级弹幕等，几乎还原官方体验并超越。
+
+> 本项目已报名 **计算机思维全国活动**，在后续开发中将注重逻辑抽象、模块解耦、性能优化与创新视觉落地，展现综合工程能力与产品思维。
+
+<br/>
+
+## 📅 开发计划与进度（暑期重点）
+
+- **LiquidGlass 移植（参赛项目核心）**：尚未启动，计划于 **2026 年暑假期间** 正式开展。  
+  目标：将 Android 原生 LiquidGlass 毛玻璃渲染效果完整迁移至 Flutter 自定义绘制层，适配视频播放页、弹幕层、侧边栏等核心场景，并保证全平台性能一致。
+- 其他功能持续优化与 bug 修复同步进行。
 
 <br/>
 
@@ -38,7 +53,7 @@
 ## refactor
 
 - [ ] gRPC [wip]
-- [x] 用户界面
+- [x] 用户界面（含后续 LiquidGlass 美化计划）
 - [x] 其他
 
 ## feat
@@ -219,14 +234,15 @@
 
 ## 声明
 
-此项目（PiliPlus）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
+此项目（liquidPiliPlus）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
 所用API皆从官方网站收集，不提供任何破解内容。
 在此致敬原作者：[guozhigq/pilipala](https://github.com/guozhigq/pilipala)
-在此致敬上游作者：[orz12/PiliPalaX](https://github.com/orz12/PiliPalaX)
+在此致敬上游作者：[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)
 本仓库做了更激进的修改，感谢原作者的开源精神。
 
-感谢使用
+特别感谢 [Kyant0/AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) 提供实现思路，本项目计划于暑期将其移植至 Flutter 端。
 
+感谢使用
 
 <br/>
 
