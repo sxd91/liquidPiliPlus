@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <h1>PiliPlus</h1>
+    <h1>LiquidPiliPlus</h1>
 <div align="center">
     
 ![GitHub repo size](https://img.shields.io/github/repo-size/bggRGjQaUbCoE/PiliPlus) 
@@ -24,7 +24,7 @@
 
 ## ✨ 亮点特性与规划
 
-- **LiquidGlass 毛玻璃效果（规划中）** —— 计划于 2026 年暑假期间，从 [AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) 移植至 Flutter 端，为 PiliPlus 注入动态、精致的玻璃质感，提升视觉层次与交互流畅度，深入实践自定义绘制与渲染优化。
+- **LiquidGlass 毛玻璃效果（规划中）** —— 计划于 2026 年暑假期间，基于 Flutter 生态的 [`liquid_glass_widgets`](https://pub.dev/packages/liquid_glass_widgets) 库，为 PiliPlus 注入动态、精致的玻璃质感，提升视觉层次与交互流畅度。通过集成成熟的开源实现，我们将专注于场景适配与性能调优，而非重造轮子。
 - **全平台覆盖** —— Android / iOS / Pad / Windows / Linux，一套代码多端运行。
 - **海量功能** —— 覆盖弹幕、离线缓存、DLNA、直播、互动视频、高级弹幕等，几乎还原官方体验并超越。
 
@@ -34,8 +34,8 @@
 
 ## 📅 开发计划与进度（暑期重点）
 
-- **LiquidGlass 移植（参赛项目核心）**：尚未启动，计划于 **2026 年暑假期间** 正式开展。  
-  目标：将 Android 原生 LiquidGlass 毛玻璃渲染效果完整迁移至 Flutter 自定义绘制层，适配视频播放页、弹幕层、侧边栏等核心场景，并保证全平台性能一致。
+- **LiquidGlass 集成（参赛项目核心）**：尚未启动，计划于 **2026 年暑假期间** 正式开展。  
+  目标：在 Flutter 应用中集成 `liquid_glass_widgets` 库，实现毛玻璃渲染效果，适配视频播放页、弹幕层、侧边栏等核心场景，并保证全平台性能一致。
 - 其他功能持续优化与 bug 修复同步进行。
 
 <br/>
@@ -234,13 +234,13 @@
 
 ## 声明
 
-此项目（liquidPiliPlus）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
+此项目（PiliPlus）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
 所用API皆从官方网站收集，不提供任何破解内容。
-在此致敬原作者：[guozhigq/pilipala](https://github.com/guozhigq/pilipala)
-在此致敬上游作者：[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)
-本仓库做了更激进的修改，感谢原作者的开源精神。
 
-特别感谢 [Kyant0/AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) 提供实现思路，本项目计划于暑期将其移植至 Flutter 端。
+**本仓库 Fork 自 [https://github.com/bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)**，在此致敬原作者 [guozhigq/pilipala](https://github.com/guozhigq/pilipala) 以及上游作者 [orz12/PiliPalaX](https://github.com/orz12/PiliPalaX)。  
+本仓库在原有基础上做了更激进的修改，感谢原作者的开源精神。
+
+感谢 Flutter 社区 [`liquid_glass_widgets`](https://pub.dev/packages/liquid_glass_widgets) 的开源实现，本项目计划于暑期将其集成至 Flutter 端。
 
 感谢使用
 
@@ -252,7 +252,8 @@
 - [flutter_meedu_videoplayer](https://github.com/zezo357/flutter_meedu_videoplayer)
 - [media-kit](https://github.com/media-kit/media-kit)
 - [dio](https://pub.dev/packages/dio)
-- 等等
+- [liquid_glass_widgets](https://pub.dev/packages/liquid_glass_widgets)（即将用于毛玻璃效果）
+- 以及其他所有开源社区的支持
 
 <br/>
 <br/>
